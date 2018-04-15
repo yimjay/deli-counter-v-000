@@ -1,7 +1,9 @@
 def line(katz_deli)
+  string = ""
   if katz_deli.size != 0
     katz_deli.each_with_index do |name, index|
-      
+      string += "#{index + 1}. #{name} "
+      puts string
     end
     
   else 
