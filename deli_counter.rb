@@ -11,8 +11,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  katz_deli.push(name)
-  puts "#{name} is in position #{katz.size}."
+  katz_deli << name
+  puts "#{name} is in position #{katz_deli.size}."
 end
 
 def now_serving(katz_deli)
