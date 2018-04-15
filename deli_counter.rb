@@ -1,5 +1,5 @@
 def line(katz_deli)
-  string = ""
+  string = "The line is currently: "
   if katz_deli.size != 0
     katz_deli.each_with_index do |name, index|
       string += "#{index + 1}. #{name} "
