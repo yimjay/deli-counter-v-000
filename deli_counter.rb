@@ -3,9 +3,8 @@ def line(katz_deli)
   if katz_deli.size != 0
     katz_deli.each_with_index do |name, index|
       string += "#{index + 1}. #{name} "
-      puts string
     end
-    
+    puts string
   else 
     puts "The line is currently empty."
   end
